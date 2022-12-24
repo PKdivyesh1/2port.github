@@ -20,7 +20,9 @@ float: right;
     padding-left: 5vw;
     padding-top: 1vw;
 }
-
+.header ul li a{
+    color: black;
+}
 /* box */
 #boxcontainer{
     width: 50vw;
@@ -337,6 +339,7 @@ height: 8vh;
     margin-right: 1vw;
 }
 
+/* tablet */
 @media only screen and (max-width: 767px){
     .header ul{
         text-align: center;
@@ -458,6 +461,7 @@ height: 8vh;
         
 }
 
+/* phone */
 @media only screen and (max-width: 480px){
     .header ul{
     text-align: center;
@@ -467,6 +471,7 @@ height: 8vh;
     .header ul li{
         font-size: 5vw;
     }
+
     #main{
         text-align: center;
     }
@@ -537,7 +542,7 @@ height: 8vh;
     }
 
     .footer{
-        margin-top: 35vh;
+        margin-top: 10vh;
         width: 100%;
         line-height: .5;
         transform: translateY(2vw);
@@ -576,4 +581,5 @@ height: 8vh;
         margin-right: 1vw;
     }
 }
+
 
