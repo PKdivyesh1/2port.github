@@ -586,7 +586,7 @@ height: 8vh;
         margin-top: 9vh;
         text-align: center;
         padding-left: 0vw;
-        transform: translatey(150px);
+        transform: translatey(10vw);
     }
     .media img{
         height: 5vw;
