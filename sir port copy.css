@@ -553,10 +553,11 @@ height: 8vh;
     }
 
     .footer{
+        
         margin-top: 0vh;
         width: 100%;
         line-height: .5;
-        transform: translateY(45vw);
+        transform: translateY(70vw);
     }
     .call{
         display: flex;
@@ -585,10 +586,11 @@ height: 8vh;
         margin-top: 9vh;
         text-align: center;
         padding-left: 0vw;
+        transform: translatey(150px);
     }
     .media img{
         height: 5vw;
-        margin-left: 1vw ;
+        margin-left: 1vw;
         margin-right: 1vw;
     }
 }
